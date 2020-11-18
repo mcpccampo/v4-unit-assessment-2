@@ -12,3 +12,49 @@ the font is called 'nunito' and can be found on google fonts
 ***you can use it if you'd like or you can choose your own***
 
 */
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(37, 37, 37);
+  padding: 20px;
+}
+
+.header-title {
+  background-color: rgb(37, 37, 37);
+  color: rgb(42, 171, 226);
+  font-family: 'Nunito', sans-serif;
+  font-size: larger;
+}
+
+.header-nav {
+  background-color: green;
+}
+
+.header-nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.header-nav li {
+  float: left;
+}
+
+.header-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(37, 37, 37);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+}
