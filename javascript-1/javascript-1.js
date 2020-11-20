@@ -9,7 +9,7 @@
 */
 
 //CODE HERE
-
+const myArr = [4, 'abc', ['cat', 'dog', 'bird'], 77];
 
 ////////////////////PROBLEM 2////////////////////
 /*
@@ -18,10 +18,10 @@
     called 'foundZ'.
 */
 
-const nestedLetters = ['m', 'g', 'e', 'q', 'h', ['n', 'b', ['v', 'z', 'y', 'r']], 'a']
+const nestedLetters = ['m', 'g', 'e', 'q', 'h', ['n', 'b', ['v', 'z', 'y', 'r']], 'a'];
+const foundZ = nestedLetters[5][2][1];
 
 //CODE HERE
-
 
 ////////////////////PROBLEM 3////////////////////
 /*
@@ -30,14 +30,13 @@ const nestedLetters = ['m', 'g', 'e', 'q', 'h', ['n', 'b', ['v', 'z', 'y', 'r']]
 */
 
 //DO NOT EDIT CODE BELOW
-const forest = ['deer', 'bear', 'squirrel']
-const ocean = ['whale', 'shark', 'dolphin', 'octopus', 'starfish']
-const savannah = ['lion', 'zebra', 'lion', 'giraffe']
-const desert = ['rattlesnake', 'coyote']
+const forest = ['deer', 'bear', 'squirrel'];
+const ocean = ['whale', 'shark', 'dolphin', 'octopus', 'starfish'];
+const savannah = ['lion', 'zebra', 'lion', 'giraffe'];
+const desert = ['rattlesnake', 'coyote'];
 //DO NOT EDIT CODE ABOVE
 
 //CODE HERE
-
 
 /*
     Now use the spread operator to make a copy of your animals array.
@@ -45,7 +44,6 @@ const desert = ['rattlesnake', 'coyote']
 */
 
 //CODE HERE
-
 
 ////////////////////PROBLEM 4////////////////////
 /*
@@ -57,7 +55,6 @@ const desert = ['rattlesnake', 'coyote']
 
 //CODE HERE
 
-  
 ////////////////////PROBLEM 5////////////////////
 /*
     Write a one line arrow function called 'bestMovie' that takes in one parameter,
@@ -68,27 +65,25 @@ const desert = ['rattlesnake', 'coyote']
 */
 
 //CODE HERE
-  
-  
+
 ////////////////////PROBLEM 6////////////////////
 /*
     Write an arrow function called 'jsNinja' that returns the string: 'I am a JavaScript ninja!'
 */
 
 //CODE HERE
-  
 
 ////////////////////PROBLEM 7////////////////////
 
 //DO NOT EDIT CODE BELOW
-  const gameInfo = {
-    name: 'Splendor', 
-    desc: 'Renaissance merchants race to grab gems, acquire property, and please nobility.', 
-    players: [2,3,4],
-    playingTime: 30,
-    minAge: 10,
-    rating: 1
-  }
+const gameInfo = {
+  name: 'Splendor',
+  desc: 'Renaissance merchants race to grab gems, acquire property, and please nobility.',
+  players: [2, 3, 4],
+  playingTime: 30,
+  minAge: 10,
+  rating: 1,
+};
 //DO NOT EDIT CODE ABOVE
 
 /*
@@ -97,61 +92,59 @@ const desert = ['rattlesnake', 'coyote']
 */
 
 //CODE HERE
-  
 
 ////////////////////PROBLEM 8////////////////////
 
 //DO NOT EDIT CODE BELOW
-  const shapes = {
-    triangle: 3,
-    square: 4, 
-    rectangle: 4,
-    pentagon: 5,
-    hexagon: 6, 
-    septagon: 7,
-    octagon: 8
-  }
+const shapes = {
+  triangle: 3,
+  square: 4,
+  rectangle: 4,
+  pentagon: 5,
+  hexagon: 6,
+  septagon: 7,
+  octagon: 8,
+};
 //DO NOT EDIT CODE ABOVE
-  
+
 /*
     You only like even numbers, so get rid of the other shapes by
     looping over the shapes object and deleting any property whose value is odd number.
 */
 
 //CODE HERE
-  
-  
+
 ////////////////////PROBLEM 9////////////////////
 
 //DO NOT EDIT CODE BELOW
 const classes = [
-    {
-      title: 'JavaScript 101',
-      instructor: 'Emily',
-      days: ['M', 'W', 'F'],
-      time: 11,
-      inPerson: false,
-      homework: true
-    },
-    {
-      title: 'UI Design',
-      instructor: 'Daniel',
-      days: ['T', 'Th'],
-      time: 9,
-      inPerson: true,
-      homework: false
-    },
-    {
-      title: 'Creating Servers',
-      instructor: 'Jess',
-      days: ['M', 'W'],
-      time: 1,
-      inPerson: true,
-      homework: true
-    }
-  ]
+  {
+    title: 'JavaScript 101',
+    instructor: 'Emily',
+    days: ['M', 'W', 'F'],
+    time: 11,
+    inPerson: false,
+    homework: true,
+  },
+  {
+    title: 'UI Design',
+    instructor: 'Daniel',
+    days: ['T', 'Th'],
+    time: 9,
+    inPerson: true,
+    homework: false,
+  },
+  {
+    title: 'Creating Servers',
+    instructor: 'Jess',
+    days: ['M', 'W'],
+    time: 1,
+    inPerson: true,
+    homework: true,
+  },
+];
 //DO NOT EDIT CODE ABOVE
-  
+
 /*
     Write a for loop that loops over the classes array,
     nest a for in loop to loop over each object.
@@ -162,7 +155,6 @@ const classes = [
 
 //CODE HERE
 
-  
 ////////////////////PROBLEM 10////////////////////
 /*
     Use nested for loops to compare the letters in the lettersToPair array below.
@@ -170,21 +162,18 @@ const classes = [
     For example, looping the array ['b', 'x', 'x', 'b'] 
     should create the array [[0,3], [1,2]].
 */
-  
-//DO NOT EDIT CODE BELOW  
-const lettersToPair = ['e', 'k', 's', 'a', 'e', 's', 'a', 'n', 'k', 'n']  
-let pairsArray = []
+
+//DO NOT EDIT CODE BELOW
+const lettersToPair = ['e', 'k', 's', 'a', 'e', 's', 'a', 'n', 'k', 'n'];
+let pairsArray = [];
 //DO NOT EDIT CODE ABOVE
 
 //CODE HERE
-
-    
 
 //////////////////////////////////PROBLEMS 11-14//////////////////////////////////
 /*
     Problems 12-14 are all going to build off of problem 11. 
 */
-
 
 ////////////////////PROBLEM 11////////////////////
 /*
@@ -195,7 +184,6 @@ let pairsArray = []
 
 //CODE HERE
 
-
 /*
     Invoke your dog constructor passing in 'Fido' for the name, 3 for the age, 
     'Jack Russell' for the breed, and an array containing the strings 'sit' and 'shake'.
@@ -203,7 +191,6 @@ let pairsArray = []
 */
 
 //CODE HERE
-  
 
 ////////////////////PROBLEM 12////////////////////
 /*
@@ -214,15 +201,13 @@ let pairsArray = []
 
 //CODE HERE
 
-
 /*
     Invoke the call method on bark, passing in fido as the context
     and saving the result to a variable called fidoSpeak.
 */
 
 //CODE HERE
-  
-  
+
 ////////////////////PROBLEM 13////////////////////
 /*
     Write a function called 'teachTrick' that will take in one parameter, trick, 
@@ -233,15 +218,13 @@ let pairsArray = []
 
 //CODE HERE
 
-
 /*
     Invoke the bind method on teachTrick, passing in fido as the context and the string 'stay' as a trick.
     Save the result to a variable called 'teachStay'.
 */
 
 //CODE HERE
-  
-  
+
 ////////////////////PROBLEM 14////////////////////
 /*
     Write a function called 'dogIntro' that will take in two parameters, treat and toy,
@@ -252,7 +235,6 @@ let pairsArray = []
 
 //CODE HERE
 
-
 /*
     Invoke the apply method on dogIntro, passing in fido as the context 
     with 'chicken' as the treat and 'tennis ball' as the toy
@@ -260,7 +242,6 @@ let pairsArray = []
 */
 
 //CODE HERE
-  
 
 ////////////////////PROBLEM 15////////////////////
 /*
@@ -271,7 +252,6 @@ let pairsArray = []
 
 //CODE HERE
 
-  
 /*
     Next make three new phones using your constructor function.
     Save them to the variables below (make sure you uncomment them).
@@ -284,12 +264,12 @@ let pairsArray = []
 */
 
 //CODE HERE
-  // let phone1 = 
-  
-  // let phone2 = 
-  
-  // let phone3 = 
-  
+// let phone1 =
+
+// let phone2 =
+
+// let phone3 =
+
 /*
     Last, add a prototype method to Phone.
     Call the method 'sell'.
@@ -299,5 +279,3 @@ let pairsArray = []
 */
 
 //CODE HERE
-
-  
