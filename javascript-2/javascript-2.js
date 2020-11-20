@@ -26,7 +26,7 @@ let foods = [
     protein: 5,
     fat: 7,
   },
-]
+];
 //DO NOT EDIT THE CODE ABOVE
 
 /*
@@ -36,7 +36,7 @@ let foods = [
 */
 
 //CODE HERE
-
+foods.forEach((item) => (item['calories'] = item.carbs * 4 + item.protein * 4 + item.fat * 4));
 //////////////////////////////////PROBLEMS 2-4//////////////////////////////////
 /*
   For problems 2-4, you will be working with the products array below.
@@ -70,7 +70,7 @@ const products = [
     color: ['blue', 'red'],
     price: 1000,
   },
-]
+];
 //DO NOT EDIT CODE ABOVE
 
 ////////////////////PROBLEM 2////////////////////
@@ -81,6 +81,10 @@ const products = [
 */
 
 //CODE HERE
+let saleProducts = products.map((item) => {
+  item.price = item.price - item.price * 0.25;
+  return item;
+});
 
 ////////////////////PROBLEM 3////////////////////
 /*
@@ -112,7 +116,7 @@ const contactInfo = {
   name: 'Helen',
   phoneNumber: 1234445555,
   email: 'helen@mymail.com',
-}
+};
 
 const shippingInfo = {
   name: 'Helen',
@@ -120,7 +124,7 @@ const shippingInfo = {
   city: 'Anytown',
   state: 'AZ',
   zipCode: 85004,
-}
+};
 //DO NOT EDIT CODE ABOVE
 
 ////////////////////PROBLEM 5////////////////////
@@ -206,7 +210,7 @@ const userInfo = {
       ],
     },
   ],
-}
+};
 //DO EDIT CODE ABOVE
 
 ////////////////////PROBLEM 9////////////////////
@@ -269,9 +273,9 @@ const workout = {
   duration: 45,
   complete: false,
   doWorkout: function () {
-    return (this.complete = true)
+    return (this.complete = true);
   },
-}
+};
 
 //let context1 = myFunc
 //let context1 = window
@@ -285,7 +289,7 @@ const workout = {
 */
 
 function myFunc() {
-  return this
+  return this;
 }
 
 //let context2 = myFunc
