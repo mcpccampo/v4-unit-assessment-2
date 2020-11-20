@@ -95,7 +95,7 @@ let saleProducts = products.map((item) => {
 */
 
 //CODE HERE
-
+let blueProducts = saleProducts.filter((item) => item.color.includes('blue'));
 ////////////////////PROBLEM 4////////////////////
 /*
   Now you'd like to get them their order total. 
@@ -104,7 +104,7 @@ let saleProducts = products.map((item) => {
 */
 
 //CODE HERE
-
+let orderTotal = blueProducts.reduce((acc, val) => (acc += val.price), 0);
 //////////////////////////////////PROBLEMS 5-8//////////////////////////////////
 /*
   For these problems we will be using the objects below, contactInfo and shippingInfo,
@@ -134,7 +134,7 @@ const shippingInfo = {
 */
 
 //CODE HERE
-
+const helensInfo = Object.assign(contactInfo, shippingInfo);
 ////////////////////PROBLEM 6////////////////////
 /*
   Helen has a daughter named Ellen that lives at the same address.
@@ -143,14 +143,18 @@ const shippingInfo = {
 */
 
 //CODE HERE
-
+const ellensInfo = {
+  ...helensInfo,
+  name: 'Ellen',
+  email: 'ellen@email.com',
+};
 ////////////////////PROBLEM 7////////////////////
 /* 
   Save Ellen's email to a new variable using destructuring.
 */
 
 //CODE HERE
-
+let { email } = ellensInfo;
 ////////////////////PROBLEM 8////////////////////
 /*
   In a single expression (one line), save the zip code and state 
@@ -158,7 +162,7 @@ const shippingInfo = {
 */
 
 //CODE HERE
-
+let { zipCode, state } = shippingInfo;;
 //////////////////////////////////PROBLEMS 9-11//////////////////////////////////
 /*
   Use the userInfo object below to complete problems 9-11.
