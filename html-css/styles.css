@@ -57,4 +57,14 @@ header {
   display: flex;
   flex-direction: column;
   background-color: gray;
+  padding: 10px;
+}
+
+.container-article {
+  border: 1px solid red;
+}
+
+.container-profile {
+  margin-top: 10px;
+  border: 1px solid blue;
 }
