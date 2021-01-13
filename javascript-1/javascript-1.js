@@ -8,10 +8,9 @@
     Call the array 'myArr'.
 */
 
-//CODE HERE
 const myArr = [4, 'abc', ['cat', 'dog', 'bird'], 77];
 
-////////////////////PROBLEM 2////////////////////
+////////////////////PROBLEM 2
 /*
     The following array, nestedLetters, contains many levels of nested arrays.
     Using bracket notation, access the letter 'z' and save it to a variable
